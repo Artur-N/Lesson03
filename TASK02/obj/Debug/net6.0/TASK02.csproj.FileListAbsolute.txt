@@ -1,0 +1,16 @@
+C:\Users\artur\Desktop\GB\Lesson03\TASK02\bin\Debug\net6.0\TASK02.exe
+C:\Users\artur\Desktop\GB\Lesson03\TASK02\bin\Debug\net6.0\TASK02.deps.json
+C:\Users\artur\Desktop\GB\Lesson03\TASK02\bin\Debug\net6.0\TASK02.runtimeconfig.json
+C:\Users\artur\Desktop\GB\Lesson03\TASK02\bin\Debug\net6.0\TASK02.dll
+C:\Users\artur\Desktop\GB\Lesson03\TASK02\bin\Debug\net6.0\ref\TASK02.dll
+C:\Users\artur\Desktop\GB\Lesson03\TASK02\bin\Debug\net6.0\TASK02.pdb
+C:\Users\artur\Desktop\GB\Lesson03\TASK02\obj\Debug\net6.0\TASK02.GlobalUsings.g.cs
+C:\Users\artur\Desktop\GB\Lesson03\TASK02\obj\Debug\net6.0\TASK02.csproj.AssemblyReference.cache
+C:\Users\artur\Desktop\GB\Lesson03\TASK02\obj\Debug\net6.0\TASK02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artur\Desktop\GB\Lesson03\TASK02\obj\Debug\net6.0\TASK02.AssemblyInfoInputs.cache
+C:\Users\artur\Desktop\GB\Lesson03\TASK02\obj\Debug\net6.0\TASK02.AssemblyInfo.cs
+C:\Users\artur\Desktop\GB\Lesson03\TASK02\obj\Debug\net6.0\TASK02.csproj.CoreCompileInputs.cache
+C:\Users\artur\Desktop\GB\Lesson03\TASK02\obj\Debug\net6.0\TASK02.dll
+C:\Users\artur\Desktop\GB\Lesson03\TASK02\obj\Debug\net6.0\ref\TASK02.dll
+C:\Users\artur\Desktop\GB\Lesson03\TASK02\obj\Debug\net6.0\TASK02.pdb
+C:\Users\artur\Desktop\GB\Lesson03\TASK02\obj\Debug\net6.0\TASK02.genruntimeconfig.cache
