@@ -3,16 +3,16 @@
 int a;
 int b;
 Console.WriteLine("Введите два числа:  ");
-string s=Console.ReadLine();
-a=Convert.ToInt32(s);
-s=Console.ReadLine();
-b=Convert.ToInt32(s);
+string s = Console.ReadLine();
+a = Convert.ToInt32(s);
+s = Console.ReadLine();
+b = Convert.ToInt32(s);
 
-if (a==Math.Pow(b,2))
+if (a == Math.Pow(b, 2))
 {
-   Console.WriteLine("Является");
+    Console.WriteLine((a) + " является квадратом " + (b));
 }
 else
 {
-  Console.WriteLine("Не является");  
+    Console.WriteLine((a) + " не является квадратом " + (b));
 }
