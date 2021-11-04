@@ -1,24 +1,20 @@
 ﻿// По заданному номеру дня недели вывести его название
-int a1=1;
-int a2=2;
-int a3=3;
-int a4=4;
-int a5=5;
-int a6=6;
-int a7=7;
+int a;
 Console.WriteLine("Введите число дня недели:  ");
-string s=Console.ReadLine();
-a1=Convert.ToInt32(s);
-s=Console.ReadLine();
-a2=Convert.ToInt32(s);
-
-if (a>b)
-{
-   
-}
-else
-{
-  
-}
-
-Console.WriteLine(a1);
+a = Convert.ToInt32(Console.ReadLine ());
+if (a==1) 
+{Console.WriteLine ("Понедельник");}
+else if (a==2) 
+{Console.WriteLine ("Вторник");}
+else if (a==3) 
+{Console.WriteLine ("Среда");}
+else if (a==4) 
+{Console.WriteLine ("Четверг");}
+else if (a==5)
+{Console.WriteLine ("Пятница");}
+else if (a==6)
+{Console.WriteLine ("Суббота");}
+else if (a==7)
+{Console.WriteLine ("Воскресенье");}
+else 
+{Console.WriteLine ("Нет такого дня недели");}
