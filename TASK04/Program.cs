@@ -1,14 +1,19 @@
 ﻿// Найти максимальное из трех чисел
-int Max(int a, int b, int c)
+int[] array = new int[3];
+Random rnd = new Random();
+for (int i = 0; i < 3; i++)
 {
-    int max = 0;
-    if (a > b) max = a;
-    else max = b;
-    if (max > c) return max;
-    else return c;
+    array[i] = rnd.Next(1, 101);
 }
-Console.Write("MAX: ");
-Console.WriteLine(Max(31, 55, 14));
+for (int i = 0; i < 3; i++)
+{
+    Console.WriteLine(array[i] + " ");
+}
 
-Random rnd = new Random().Next(1, 10);
-Console.WriteLine(rnd);
+int max = 0;
+for (int i = 0; i < 3; i++)
+{
+    if (array[i]>max) max = array[i];
+}
+    
+Console.Write("MAX: "+ (max));
