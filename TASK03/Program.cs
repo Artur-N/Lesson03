@@ -1,15 +1,15 @@
 ﻿// По заданному номеру дня недели вывести его название
-int a;
 Console.WriteLine("Введите число дня недели:  ");
-a = Convert.ToInt32(Console.ReadLine ());
-// if (a==1) {Console.WriteLine ("Понедельник");}
-// else if (a==2) {Console.WriteLine ("Вторник");}
-// else if (a==3) {Console.WriteLine ("Среда");}
-// else if (a==4) {Console.WriteLine ("Четверг");}
-// else if (a==5) {Console.WriteLine ("Пятница");}
-// else if (a==6) {Console.WriteLine ("Суббота");}
-// else if (a==7) {Console.WriteLine ("Воскресенье");}
-// else {Console.WriteLine ("Нет такого дня недели");}
+string s = (Console.ReadLine());
+int a = Convert.ToInt32(s);
+if (a==1) {Console.WriteLine ("Понедельник");}
+else if (a==2) {Console.WriteLine ("Вторник");}
+else if (a==3) {Console.WriteLine ("Среда");}
+else if (a==4) {Console.WriteLine ("Четверг");}
+else if (a==5) {Console.WriteLine ("Пятница");}
+else if (a==6) {Console.WriteLine ("Суббота");}
+else if (a==7) {Console.WriteLine ("Воскресенье");}
+else {Console.WriteLine ("Нет такого дня недели");}
 
 // switch (s)
 // {
@@ -22,15 +22,15 @@ a = Convert.ToInt32(Console.ReadLine ());
 //     break;
 // }
 
-string[] days = new string[8];
+// string[] days = new string[8];
 
-days[1] = "Понедельник";
-days[2] = "Вторник";
-int  day= Convert.ToInt32(s);
-
-// else if (a==3) {Console.WriteLine ("Среда");}
-// else if (a==4) {Console.WriteLine ("Четверг");}
-// else if (a==5) {Console.WriteLine ("Пятница");}
-// else if (a==6) {Console.WriteLine ("Суббота");}
-// else if (a==7) {Console.WriteLine ("Воскресенье");}
-// else {Console.WriteLine ("Нет такого дня недели");}
+// days[1] = "Понедельник";
+// days[2] = "Вторник";
+// days[3] = "Среда";
+// days[4] = "Четверг";
+// days[5] = "Пятница";
+// days[6] = "Суббота";
+// days[7] = "Воскресенье";
+// days[0] = "Нет такого дня недели";
+// int day = Convert.ToInt32(s);
+// Console.WriteLine(days[day]);
