@@ -1,12 +1,9 @@
 ﻿//По двум заданным числам проверять является ли первое квадратом второго
 
-int a;
-int b;
 Console.WriteLine("Введите два числа:  ");
-string s = Console.ReadLine();
-a = Convert.ToInt32(s);
-s = Console.ReadLine();
-b = Convert.ToInt32(s);
+
+int a = Convert.ToInt32(Console.ReadLine());
+int b= Convert.ToInt32(Console.ReadLine());
 
 if (a == Math.Pow(b, 2))
 {
