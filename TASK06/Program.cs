@@ -1,8 +1,7 @@
 ﻿// Выяснить является ли число чётным
-int a;
+
 Console.WriteLine("Введите число:  ");
-string s=Console.ReadLine();
-a=Convert.ToInt32(s);
+int a = Convert.ToInt32(Console.ReadLine());
 if (a%2==0)
 {
     Console.WriteLine((a)+ " Чётное");
