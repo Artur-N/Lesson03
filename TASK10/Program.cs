@@ -7,7 +7,7 @@ if (a >= 100 & a < 1000)
 {
     b=((a%100)-(a%10))/10;
     
-    Console.WriteLine("Последняя цифра: " + b);
+    Console.WriteLine("Вторая цифра: " + b);
 }
 else
 {

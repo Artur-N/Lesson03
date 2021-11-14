@@ -1,6 +1,6 @@
 ﻿// 13. Выяснить, кратно ли число заданному, если нет, вывести остаток.
 
-int a = new Random().Next(1, 11);
+int a = new Random().Next(1, 100);
 Console.WriteLine("Заданное число: " + a);
 Console.WriteLine("Введите число: ");
 int b = Convert.ToInt32(Console.ReadLine());
