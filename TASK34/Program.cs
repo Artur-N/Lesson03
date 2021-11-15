@@ -6,10 +6,11 @@ for (i = 0; i < Array.Length; i++)
 {
     Array[i] = new Random().Next(-10, 10);
     Console.Write(Array[i] + " ");
-    Array[i] = Array[i] * -1;
+    
 }
 Console.WriteLine();
 for (i = 0; i < Array.Length; i++)
 {
+    Array[i] = Array[i] * -1;
     Console.Write(Array[i] + " ");
 }
