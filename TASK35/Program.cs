@@ -4,12 +4,28 @@ int[] arr = new int[10];
 int i = 0;
 for (i = 0; i < arr.Length; i++)
 {
-    arr[i] = new Random().Next(1, 100);
+    arr[i] = new Random().Next(1, 10);
     Console.Write($"{arr[i]} ");
 }
 Console.WriteLine();
-Console.Write("Введите число от 1 до 100: ");
-int digit = Convert.ToInt32(Console.ReadLine());
+
+// Console.Write("Введите число от 1 до 10: ");
+// int digit = Convert.ToInt32(Console.ReadLine());
+
+// for (i = 0; i < arr.Length; i++)
+// {
+//     if (digit == arr[i])
+//     {
+//         Console.Write($"Чиcло {digit} присутствует в массиве");
+//         break;
+//     }
+// }
+// if (i == arr.Length)
+// {
+//     Console.Write($"Такого числа нет в массиве");
+// }
+
+int digit = new Random().Next(1, 10);
 
 for (i = 0; i < arr.Length; i++)
 {
@@ -21,7 +37,7 @@ for (i = 0; i < arr.Length; i++)
 }
 if (i == arr.Length)
 {
-    Console.Write($"Такого числа нет в массиве");
+    Console.Write($"Числа {digit} НЕТ в массиве");
 }
 
 // bool flag = false;
@@ -30,15 +46,13 @@ if (i == arr.Length)
 //     if (digit == arr[i])
 //     {
 //         flag = true;
+//         Console.Write($"Некоторое чиcло {digit} присутствует в массиве");
 //         break;
 //     }
 // }
 // if (flag == false)
 // {
-//     Console.Write($"Такого числа нет в массиве");
+//     Console.Write($"Некоторого числа {digit} НЕТ в массиве");
 // }
-// else
-// {
-//     Console.Write($"Чиcло {digit} присутствует в массиве");
-// }
+
 
