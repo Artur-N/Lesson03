@@ -5,8 +5,8 @@ Console.WriteLine(a);
 
 int Sum(int s)
 {
-    int summa;
-    for (summa = 0; s != 0;)
+    int summa = 0;
+    while (s != 0)
     {
         summa = summa + s % 10;
         s = s / 10;
