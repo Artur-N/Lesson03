@@ -1,13 +1,14 @@
 ﻿// 27. Определить количество цифр в числе
 
-int CountDigit(int n)
+ulong CountDigit(ulong n)
 {
-    int k=0;
-    while (n!=0)
+    ulong k;
+    for (k = 0; n != 0; k++)
     {
-        k++;
-        n=n/10;
+        n = n / 10;
     }
     return k;
 }
-Console.WriteLine(CountDigit(156));
+Console.Write("Введите число: ");
+ulong x = Convert.ToUInt64(Console.ReadLine());
+Console.WriteLine($"Число {x} состоит из {CountDigit(x)} цифр");
