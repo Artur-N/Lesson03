@@ -9,6 +9,6 @@ int metod(int n)
     }
     return sum;
 }
-    Console.WriteLine("Введите число: ");
+    Console.Write("Введите число: ");
     int A = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine(metod(A));
+    Console.WriteLine($"Сумма чисел от 1 до {A} = {metod(A)}");
