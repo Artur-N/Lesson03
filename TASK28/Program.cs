@@ -13,4 +13,4 @@ int Sum(int s)
     }
     return summa;
 }
-Console.WriteLine(Sum(a));
+Console.WriteLine($"Сумма цифр числа {a} = {Sum(a)}");
