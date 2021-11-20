@@ -18,17 +18,15 @@
 
 int[] metod3(int[] arr)
 {
-    // int[] arr2 = new int[arr.Length];
-    // int j = 0;
     for (int i = 0; i < arr.Length; i++)
     {
         arr[i] = new Random().Next(1, 10);
         Console.Write(arr[i] + " ");
         arr[i] = (int)Math.Pow(arr[i], 3);
-        // if (arr[i] % 2 == 0)
+        // int s = (int)Math.Pow(arr[i], 3);
+        // if (s % 2 == 0)
         // {
-        //     arr2[j] = arr[i];
-        //     j++;
+        //     arr[i] = s;
         // }
     }
     return arr;
@@ -38,7 +36,8 @@ void print(int[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
     {
-        if (arr[i] % 2 == 0) Console.Write(arr[i] + " ");
+        if (arr[i] % 2 == 0)
+        Console.Write(arr[i] + " ");
     }
 }
 
