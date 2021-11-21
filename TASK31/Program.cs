@@ -10,7 +10,7 @@ for (int i = 0; i < a.Length; i++)
 Console.WriteLine();
 
 // 2й способ - Через метод
-void b(int[] arr, int min, int max)
+void RndArr8(int[] arr, int min, int max)
 {
     for (int i = 0; i < arr.Length; i++)
     {
@@ -18,4 +18,4 @@ void b(int[] arr, int min, int max)
         Console.Write(arr[i] + " ");
     }
 }
-b(a, -10, 10);
+RndArr8(a, -10, 11);
