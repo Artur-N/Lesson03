@@ -5,7 +5,7 @@ void RndArr(int[] Arr)
     for (int i = 0; i < Arr.Length; i++)
     {
         Arr[i] = new Random().Next(0, 100);
-        Console.Write(Arr[i] + " ");
+        Console.WriteLine($"{i} - {Arr[i]}  ");
     }
 }
 
@@ -24,6 +24,6 @@ int FindSumOdd(int[] Arr)
 
 int[] Array = new int[10];
 RndArr(Array);
-Console.Write("\nСумма чисел стоящих на нечётных позициях = ");
+Console.Write("Сумма чисел стоящих на нечётных позициях = ");
 Console.WriteLine(FindSumOdd(Array));
 
